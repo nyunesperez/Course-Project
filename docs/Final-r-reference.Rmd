@@ -19,7 +19,7 @@ require (here)
 library (palmerpenguins)
 require (palmerpenguins)
 here()
-ginkgo<- read.csv(here("data", "ginkgo_data_2021.csv"))
+ginkgo<- read.csv(here("docs","data", "ginkgo_data_2021.csv"))
 penguins<- palmerpenguins::penguins
 ```
 In this section, I have loaded my built in data (palmerpenguins), installed the "here" package, require said package and then used that function and read.csv to load it into a dataframe called gingko. with the here function you can specify in which folders the document lives
